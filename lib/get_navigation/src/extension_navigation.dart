@@ -231,6 +231,7 @@ extension ExtensionDialog on GetInterface {
     }
 
     Widget baseAlertDialog = AlertDialog(
+      scrollable: true,
       titlePadding: titlePadding ?? EdgeInsets.all(8),
       contentPadding: contentPadding ?? EdgeInsets.all(8),
 
